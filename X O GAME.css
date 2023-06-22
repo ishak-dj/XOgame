@@ -1,0 +1,49 @@
+body{
+background:#000;
+}
+.game{
+width:225px;
+text-align:center;
+font-family:system-ui;
+color:white;
+margin:auto;
+margin-top:100px;
+font-weight:70px;
+}
+.title{
+background:#19A7CE;
+padding:5px 0;
+margin:5px 0;
+box-shadow:0 0 50px blue;
+}
+span{
+color:#fa0;
+}
+.square{
+width:71px;
+height:70px;
+background:#19A7CE;
+float:left;
+margin:2px;
+font-size:50px;
+box-shadow:0 0 50px blue;
+}
+.square:hover{
+background:BLUE;
+}
+#noWay{
+outline:none;
+color:#000;
+background:aqua;
+border:none;
+box-shadow:0 0 20px aqua;
+border-radius:5px;
+position:fixed;
+top:80px;
+left:20px;
+}
+#noWay:active{
+background:BLUE;
+color:#fff;
+box-shadow:0 0 20px blue;
+}
