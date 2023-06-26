@@ -47,3 +47,22 @@ background:BLUE;
 color:#fff;
 box-shadow:0 0 20px blue;
 }
+@media(max-width:600px){
+.game{
+  width:80%;
+  height:60%;
+  margin-top:200px;
+}
+.square{
+  width:31.9%;
+  height:30%;
+  margin:2px;
+  font-size:100px;
+}
+#noWay{
+  top:50px;
+  left:50px;
+  width:100px;
+  height:30px;
+}
+}
